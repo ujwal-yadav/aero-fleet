@@ -15,7 +15,7 @@ export const Login = () => {
   const { username, password, errors, handleChange, handleLogin } = useLogin();
 
   return (
-    <div className="mx-auto max-w-md space-y-6">
+    <div className="mx-auto max-w-md p-4 space-y-6">
       <Card>
         <CardHeader className="space-y-1 text-center">
           <div className="flex flex-col items-center justify-center space-y-2">
