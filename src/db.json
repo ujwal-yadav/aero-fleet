@@ -1,0 +1,225 @@
+{
+  "users": [{ "username": "admin", "password": "password123" }],
+  "drones": [
+    {
+      "id": "Drone1",
+      "status": "Available",
+      "flight_hours": 120,
+      "battery_status": "80%",
+      "last_known_location": [40.712776, -74.005974],
+      "current_mission": "Survey field A",
+      "maintenance_logs": [
+        {
+          "date": "2024-01-10",
+          "description": "Battery replacement",
+          "technician": "John Doe"
+        }
+      ]
+    },
+    {
+      "id": "Drone2",
+      "status": "In-flight",
+      "flight_hours": 200,
+      "battery_status": "20%",
+      "last_known_location": [34.052235, -118.243683],
+      "current_mission": "Inspect irrigation system",
+      "maintenance_logs": [
+        {
+          "date": "2024-03-05",
+          "description": "Firmware update",
+          "technician": "Alice Johnson"
+        },
+        {
+          "date": "2024-04-22",
+          "description": "Motor calibration",
+          "technician": "Bob Lee"
+        }
+      ]
+    },
+    {
+      "id": "Drone3",
+      "status": "Maintenance",
+      "flight_hours": 95,
+      "battery_status": "60%",
+      "last_known_location": [41.878113, -87.629799],
+      "current_mission": "N/A",
+      "maintenance_logs": [
+        {
+          "date": "2024-05-12",
+          "description": "Propeller replacement",
+          "technician": "Charlie Brown"
+        },
+        {
+          "date": "2024-06-30",
+          "description": "GPS module repair",
+          "technician": "Diana Prince"
+        }
+      ]
+    },
+    {
+      "id": "Drone4",
+      "status": "Available",
+      "flight_hours": 50,
+      "battery_status": "90%",
+      "last_known_location": [51.507351, -0.127758],
+      "current_mission": "Mapping city park",
+      "maintenance_logs": [
+        {
+          "date": "2024-02-20",
+          "description": "Software upgrade",
+          "technician": "Ethan Hunt"
+        },
+        {
+          "date": "2024-03-18",
+          "description": "Battery inspection",
+          "technician": "Jason Bourne"
+        }
+      ]
+    },
+    {
+      "id": "Drone5",
+      "status": "In-flight",
+      "flight_hours": 180,
+      "battery_status": "50%",
+      "last_known_location": [48.856613, 2.352222],
+      "current_mission": "Surveillance",
+      "maintenance_logs": [
+        {
+          "date": "2024-01-25",
+          "description": "Camera calibration",
+          "technician": "Lara Croft"
+        },
+        {
+          "date": "2024-04-14",
+          "description": "Sensor replacement",
+          "technician": "Indiana Jones"
+        }
+      ]
+    },
+    {
+      "id": "Drone6",
+      "status": "Maintenance",
+      "flight_hours": 75,
+      "battery_status": "40%",
+      "last_known_location": [35.689487, 139.691711],
+      "current_mission": "N/A",
+      "maintenance_logs": [
+        {
+          "date": "2024-05-05",
+          "description": "Antenna repair",
+          "technician": "Tony Stark"
+        },
+        {
+          "date": "2024-07-10",
+          "description": "Firmware patch",
+          "technician": "Bruce Wayne"
+        }
+      ]
+    },
+    {
+      "id": "Drone7",
+      "status": "Available",
+      "flight_hours": 60,
+      "battery_status": "85%",
+      "last_known_location": [37.774929, -122.419418],
+      "current_mission": "Aerial photography",
+      "maintenance_logs": [
+        {
+          "date": "2024-02-15",
+          "description": "Rotor maintenance",
+          "technician": "Peter Parker"
+        }
+      ]
+    },
+    {
+      "id": "Drone8",
+      "status": "In-flight",
+      "flight_hours": 150,
+      "battery_status": "30%",
+      "last_known_location": [52.520008, 13.404954],
+      "current_mission": "Traffic monitoring",
+      "maintenance_logs": [
+        {
+          "date": "2024-03-30",
+          "description": "Battery check",
+          "technician": "Clark Kent"
+        },
+        {
+          "date": "2024-05-21",
+          "description": "Camera lens cleaning",
+          "technician": "Diana Prince"
+        }
+      ]
+    },
+    {
+      "id": "Drone9",
+      "status": "Maintenance",
+      "flight_hours": 110,
+      "battery_status": "70%",
+      "last_known_location": [55.755825, 37.617298],
+      "current_mission": "N/A",
+      "maintenance_logs": [
+        {
+          "date": "2024-06-01",
+          "description": "Propeller alignment",
+          "technician": "Steve Rogers"
+        },
+        {
+          "date": "2024-07-15",
+          "description": "Software troubleshooting",
+          "technician": "Natasha Romanoff"
+        }
+      ]
+    },
+    {
+      "id": "Drone10",
+      "status": "Available",
+      "flight_hours": 85,
+      "battery_status": "65%",
+      "last_known_location": [28.613939, 77.209023],
+      "current_mission": "Wildlife monitoring",
+      "maintenance_logs": [
+        {
+          "date": "2024-02-28",
+          "description": "Firmware upgrade",
+          "technician": "Bruce Banner"
+        }
+      ]
+    },
+    {
+      "id": "Drone7",
+      "status": "Available",
+      "flight_hours": 60,
+      "battery_status": "85%",
+      "last_known_location": [37.774929, -122.419418],
+      "current_mission": "Aerial photography",
+      "maintenance_logs": [
+        {
+          "date": "2024-02-15",
+          "description": "Rotor maintenance",
+          "technician": "Peter Parker"
+        }
+      ]
+    },
+    {
+      "id": "Drone8",
+      "status": "In-flight",
+      "flight_hours": 150,
+      "battery_status": "30%",
+      "last_known_location": [52.520008, 13.404954],
+      "current_mission": "Traffic monitoring",
+      "maintenance_logs": [
+        {
+          "date": "2024-03-30",
+          "description": "Battery check",
+          "technician": "Clark Kent"
+        },
+        {
+          "date": "2024-05-21",
+          "description": "Camera lens cleaning",
+          "technician": "Diana Prince"
+        }
+      ]
+    }
+  ]
+}
