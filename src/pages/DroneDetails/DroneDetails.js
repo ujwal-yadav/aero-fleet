@@ -114,13 +114,13 @@ export const DroneDetails = () => {
             <Table>
               <TableHeader>
                 <TableRow className="hover:bg-transparent">
-                  <TableHead className="p-6 font-semibold text-xl">
+                  <TableHead className="p-6 font-bold text-xl bg-background/60 rounded-tl-lg">
                     Date
                   </TableHead>
-                  <TableHead className="p-6 font-semibold text-xl">
+                  <TableHead className="p-6 font-bold text-xl bg-background/60">
                     Description
                   </TableHead>
-                  <TableHead className="p-6 font-semibold text-xl">
+                  <TableHead className="p-6 font-bold text-xl bg-background/60 rounded-tr-lg">
                     Technician
                   </TableHead>
                 </TableRow>
@@ -130,13 +130,13 @@ export const DroneDetails = () => {
                 {selectedDroneDetails.maintenance_logs.map(
                   (droneMaintenanceLog) => (
                     <TableRow className="hover:bg-transparent">
-                      <TableCell className="p-6">
+                      <TableCell className="p-6 text-lg">
                         {droneMaintenanceLog.date}
                       </TableCell>
-                      <TableCell className="p-6">
+                      <TableCell className="p-6 text-lg">
                         {droneMaintenanceLog.description}
                       </TableCell>
-                      <TableCell className="p-6">
+                      <TableCell className="p-6 text-lg">
                         {droneMaintenanceLog.technician}
                       </TableCell>
                     </TableRow>
